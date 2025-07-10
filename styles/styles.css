@@ -167,7 +167,7 @@ nav ul li a {
 }
 
 /* ------------------ Review Section ------------------ */
-.review-section,
+
 .contact-form {
   background: #f0f2ff;
 }
@@ -194,4 +194,28 @@ nav ul li a {
 }
 .review-card p {
   text-align: justify;
+}
+
+/* ------------------ Ready------------------ */
+.ready-section {
+  text-align: center;
+  margin: 135px;
+}
+
+.ready-image {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.ready-section h2 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.ready-section p {
+  margin-bottom: 20px;
+  color: rgb(37, 36, 50, 0.5);
+}
+.ready-section a {
+  margin-bottom: 30px;
 }
