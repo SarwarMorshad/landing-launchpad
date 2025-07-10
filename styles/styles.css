@@ -1,11 +1,16 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
   background-color: #f5f8ff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
 }
 /* Font Family */
 
@@ -52,7 +57,6 @@ nav ul li a {
   font-weight: 500;
 }
 
-/* ------------------ Logo ------------------ */
 .logo {
   font: inter-normal;
   font-weight: bolder;
@@ -79,7 +83,7 @@ nav ul li a {
 .hero {
   text-align: center;
   padding: 60px 20px;
-  margin: 158px 118px;
+  margin: 0px 158px 118px;
 }
 
 .hero h1 {
@@ -124,4 +128,40 @@ nav ul li a {
 .action-image {
   width: 100%;
   border-radius: 12px;
+}
+
+/* ------------------ Stats Section ------------------ */
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px;
+  border-radius: 16px;
+  text-align: center;
+  background: rgb(78, 71, 255, 0.1);
+}
+
+.stats h2 {
+  width: 100%;
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.stat {
+  flex: 1;
+  min-width: 100px;
+}
+
+.stat h3 {
+  font-size: 80px;
+  font-weight: bold;
+  color: #4c60ff;
+  margin-bottom: 10px;
+}
+
+.stat p {
+  color: rgb(37, 36, 50, 0.5);
 }
