@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #f5f8ff;
+}
 /* Font Family */
 
 .raleway-normal {
@@ -68,6 +71,10 @@ nav ul li a {
   text-decoration: none;
   font-size: 16px;
 }
+/* 
+.signup-btn {
+  margin-top: 37px;
+} */
 /* ------------------ Hero Section ------------------ */
 .hero {
   text-align: center;
@@ -77,10 +84,44 @@ nav ul li a {
 
 .hero h1 {
   font-size: 65px;
-  margin-bottom: 20px;
 }
 
+.hero-text {
+  margin-bottom: 37px;
+}
 /* .hero p {
   font-size: 18px;
   margin-bottom: 20px;
 } */
+
+/* ------------------ See it in Action Section ------------------ */
+/* .see-section {
+  margin: 0 100px;
+} */
+
+.container {
+  margin-bottom: 115px;
+}
+
+.action-section {
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  gap: 200px;
+  align-items: center;
+}
+
+.action-text h2 {
+  margin-bottom: 20px;
+  font-size: 42px;
+}
+.action-text p {
+  margin-bottom: 20px;
+  color: rgb(37, 36, 50, 0.5);
+  font-weight: bold;
+}
+
+.action-image {
+  width: 100%;
+  border-radius: 12px;
+}
