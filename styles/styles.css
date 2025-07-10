@@ -12,3 +12,75 @@
   font-weight: normal;
   font-style: normal;
 }
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Header Section */
+header {
+  background-image: url("/images/Hero-bg.png");
+  margin: 0 auto;
+  margin-bottom: 116px;
+}
+
+/* Nav Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #4c60ff;
+  font-weight: 500;
+}
+
+/* ------------------ Logo ------------------ */
+.logo {
+  font: inter-normal;
+  font-weight: bolder;
+  color: #4e47ff;
+  font-size: 34px;
+}
+
+/* ------------------ Button ------------------ */
+.btn {
+  background: #4e47ff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+}
+/* ------------------ Hero Section ------------------ */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  margin: 158px 118px;
+}
+
+.hero h1 {
+  font-size: 65px;
+  margin-bottom: 20px;
+}
+
+/* .hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+} */
