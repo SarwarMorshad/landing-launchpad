@@ -75,6 +75,10 @@ nav ul li a {
   text-decoration: none;
   font-size: 16px;
 }
+
+.btn:hover {
+  background-color: yellowgreen;
+}
 /* 
 .signup-btn {
   margin-top: 37px;
@@ -200,6 +204,8 @@ nav ul li a {
 .ready-section {
   text-align: center;
   margin: 135px;
+  background-color: white;
+  padding: 71px 130px;
 }
 
 .ready-image {
@@ -218,4 +224,106 @@ nav ul li a {
 }
 .ready-section a {
   margin-bottom: 30px;
+}
+
+/* ------------------ Contact Form Section ------------------ */
+.contact-form {
+  background-color: #f5f8ff;
+}
+.contact-box {
+  display: flex;
+  padding: 40px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.left-contact {
+  flex: 1;
+  padding-right: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.left-contact h2 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #000;
+  line-height: 1.2;
+}
+
+.right-contact {
+  flex: 1;
+}
+
+.right-contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-contact label {
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.field {
+  margin-bottom: 30px;
+}
+
+/* ------------------ Footer ------------------ */
+.footer-logo {
+  font-family: "Inter", sans-serif;
+  font-size: 64px;
+  font-weight: 800;
+  color: #4a3aff;
+}
+
+footer p.footer-description {
+  font-size: 16px;
+  color: #888;
+  max-width: 600px;
+  margin: 20px auto 0;
+  line-height: 1.5;
+}
+
+.footer-social {
+  margin-top: 20px;
+}
+
+.footer-social a {
+  color: #888;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer {
+  background: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer-description {
+  margin-top: 10px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-social {
+  margin-top: 20px;
 }
