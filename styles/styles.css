@@ -203,7 +203,7 @@ nav ul li a {
 /* ------------------ Ready------------------ */
 .ready-section {
   text-align: center;
-  margin: 135px;
+  margin: 135px auto;
   background-color: white;
   padding: 71px 130px;
 }
